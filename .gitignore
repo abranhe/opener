@@ -1,0 +1,11 @@
+*.DS_STORE
+*.o
+*.log
+*.gcov
+*.gcda
+*.gcno
+binary
+test
+example
+coverage
+deps
