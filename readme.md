@@ -2,7 +2,7 @@
 	<br>
 	<img src="https://cdn.abranhe.com/projects/open/logo.svg">
 	<br>
-	<b>opener-cli</b>: Know your operating system from your terminal
+	<b>opener-cli</b>: Open stuff from your terminal CLI
 	<br>
 </p>
 

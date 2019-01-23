@@ -1,5 +1,5 @@
 {
-  "name": "opener-cli",
+  "name": "opener",
   "version": "1.0.0",
   "description": "Oooo, Open stuff from your terminal",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "open-url",
     "opn"
   ],
-  "repo": "abranhe/opener",
+  "repo": "abranhe/opener-cli",
   "dependencies": {
     "abranhe/opener": "2.0.0"
   },
