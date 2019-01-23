@@ -8,7 +8,11 @@
 
 #include <stdio.h>
 #include <string.h>
+
 #include "opener.h"
+
+// Version
+#define  VERSION "1.0.2"
 
 const char*
 show_help() {
@@ -37,7 +41,7 @@ main(int argc, char **argv) {
 
   if (argc == 2) {
     if (!strcmp(arg, "-v") || !strcmp(arg, "--version")) {
-      printf("%s", "cli 1.0.0 ~ opener v2.0.0\n");
+      printf("%s\n", VERSION);
       return 0;
     }
 

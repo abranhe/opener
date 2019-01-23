@@ -4,7 +4,7 @@ SRC = cli.c $(wildcard deps/*/*.c)
 
 OBJ_SRC = $(SRC:.c=.o)
 
-CFLAGS = -D_GNU_SOURCE -std=c99 -I deps/opener/ -I deps/os.c/
+CFLAGS = -D_GNU_SOURCE -std=c99 -I deps/opener.c/ -I deps/os.c/
 
 LFLAGS = -Wall -Wno-format-y2k -W -Wstrict-prototypes \
 	-Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch \

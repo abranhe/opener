@@ -12,9 +12,9 @@
     "open-url",
     "opn"
   ],
-  "repo": "abranhe/opener-cli",
+  "repo": "abranhe/opener",
   "dependencies": {
-    "abranhe/opener": "2.0.0"
+    "abranhe/opener.c": "2.0.1"
   },
   "install": "make install"
 }
