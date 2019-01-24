@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-	<a href="https://travis-ci.org/abranhe/opener-cli"><img src="https://img.shields.io/travis/abranhe/opener-cli.svg?logo=travis" /></a>
+	<a href="https://travis-ci.org/abranhe/opener"><img src="https://img.shields.io/travis/abranhe/opener.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
 	<a href="https://patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
