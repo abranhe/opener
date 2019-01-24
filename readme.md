@@ -2,7 +2,7 @@
 	<br>
 	<img src="https://cdn.abranhe.com/projects/open/logo.svg">
 	<br>
-	<b>opener-cli</b>: Open stuff from your terminal CLI
+	<b>opener</b>: Open stuff from your terminal CLI
 	<br>
 </p>
 
@@ -11,7 +11,7 @@
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
 	<a href="https://patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/opener-cli/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/opener-cli.svg" /></a>
+	<a href="https://github.com/abranhe/opener/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/opener.svg" /></a>
 
   <br>
   <br>
@@ -23,7 +23,7 @@
 *Using [Clib](https://github.com/clibs/clib)* package manager.
 
 ```sh
-$ clib install abranhe/opener-cli
+$ clib install abranhe/opener
 ```
 
 ## Usage
@@ -71,7 +71,7 @@ Oooh, Open stuff from your terminal
 <!-------------------- Links ------------------------>
 [abranhe]: https://github.com/abranhe
 [abranhe-img]: https://avatars3.githubusercontent.com/u/21347264?s=50
-[license]: https://github.com/abranhe/opener-cli/blob/master/license
-[travis-badge]: https://img.shields.io/travis/abranhe/opener-cli.svg
-[travis-status]: https://travis-ci.org/abranhe/opener-cli
+[license]: https://github.com/abranhe/opener/blob/master/license
+[travis-badge]: https://img.shields.io/travis/abranhe/opener.svg
+[travis-status]: https://travis-ci.org/abranhe/opener
 [opener]: https://github.com/abranhe/opener
