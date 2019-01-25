@@ -9,7 +9,7 @@ compiler:
 
 before_install:
   - docker pull abranhe/clib
-  - docker run -it -v "$(pwd)":/opener abranhe/clib bash && ls -alt
+  - docker run -it -v "$(pwd)":/opener abranhe/clib  && ls -alt
 
 script: make run-test
 
