@@ -9,7 +9,7 @@ compiler:
 
 before_install:
   - docker pull abranhe/clib
-  - docker run abranhe/clib install
+  - docker run abranhe/clib
 
 script: make run-test
 
