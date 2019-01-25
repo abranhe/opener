@@ -9,9 +9,10 @@ compiler:
 
 before_install:
   - docker pull abranhe/clib
-  - docker run -it -v $(pwd):/src -w /src ubuntu "clib install"
+  - docker run -it -v $(pwd):/src -w /src abranhe/clib "clib --help"
 
-script: docker run -it -v $(pwd):/src -w /src ubuntu "make run-test"
+script: echo Hello
+# docker run -it -v $(pwd):/src -w /src ubuntu "make run-test"
 
 notifications:
   email: false
