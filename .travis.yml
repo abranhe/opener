@@ -11,7 +11,7 @@ before_install:
   - docker pull abranhe/clib
   - docker run -it -v $(pwd):/src -w /src ubuntu "clib install"
 
-script: - docker run -it -v $(pwd):/src -w /src ubuntu "make run-test"
+script: docker run -it -v $(pwd):/src -w /src ubuntu "make run-test"
 
 notifications:
   email: false
