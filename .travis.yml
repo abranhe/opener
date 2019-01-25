@@ -9,9 +9,9 @@ compiler:
 
 before_install:
   - docker pull abranhe/clib
-  - docker run -it -v $(pwd):/src abranhe/clib  && ls -alt
+  - docker run -it --rm -v $(pwd):/src -w /src  abranhe/clib
 
-script: echo hello
+script: pwd && ls -alt 
 # script: make run-test
 
 notifications:
