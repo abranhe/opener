@@ -12,7 +12,7 @@
 #include "opener.h"
 
 // Version
-#define  VERSION "1.0.2"
+#define  VERSION "1.0.3"
 
 const char*
 show_help() {
