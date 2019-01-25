@@ -1,7 +1,21 @@
 language: c
+
+services:
+  - docker
+
 compiler:
-- clang
-- gcc
-script: make run-test
+  - clang
+  - gcc
+
+# Run the tests inside the Docker container
+# See https://www.youtube.com/watch?v=MdRWkqcbLJI
+# https://stackoverflow.com/questions/26153686/
+
+before_install:
+  - docker pull abranhe/clib
+  - docker run -it -v $(pwd):/src -w /src abranhe/clib sh -c "clib install"
+
+script: docker run -it -v $(pwd):/src -w /src abranhe/clib sh -c "make run-test"
+
 notifications:
   email: false
